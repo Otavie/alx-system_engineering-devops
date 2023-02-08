@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | paste -sd ","
+ls -a --group-directories-first | awk -v ORS=", " '/^[^.]/ {print $0 "/"} /^\./ {print}' | sed '$s/.$/\n/'
