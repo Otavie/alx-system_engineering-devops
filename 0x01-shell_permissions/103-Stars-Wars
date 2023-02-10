@@ -1,2 +1,2 @@
 #!/bin/bash
-mplay 103-Star_Wars
+vlc 103-Star_Wars_VI
