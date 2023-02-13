@@ -1,2 +1,2 @@
-!/bin/bash
-line=$(cat iacta | tr '\n' ' ' | cut -d ' ' -f 3) && echo $line 
+#!/bin/bash
+head -n iacta | tail -n 1
