@@ -1,0 +1,2 @@
+#!/bin/bash
+while IFS=: read -r username password _ _ home_directory _; do echo "$username: $home_directory"; done < <(sort /etc/passwd)
