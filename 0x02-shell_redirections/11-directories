@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -not -path ".*" | grep -v '^\.' | wc -l
+find . -maxdepth 1 -type d | grep -v "^\.$\|^\./\." | wc -l
