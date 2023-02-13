@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -name '*.gif' | while IFS= read -r item; do echo "${item%.*}" | tr '[:upper:]' '[:lower:]'; done | sort -f | tr '[:lower:]' '[:upper:]'; echo
