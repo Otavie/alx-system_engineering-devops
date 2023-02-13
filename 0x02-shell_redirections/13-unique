@@ -1,2 +1,2 @@
 #!/bin/bash
-tr ' ' '\n' | sort | uniq -c | grep "^[ ]*1 " | cut -c 6-
+sort list | uniq -u
