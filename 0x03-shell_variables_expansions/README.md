@@ -1,4 +1,4 @@
-#UNDERSTANDING ALIASES, VARIABLES AND EXPANSIONS
+# UNDERSTANDING ALIASES, VARIABLES AND EXPANSIONS
 This directory contains task for Shell, init files, variables and expansions.
 At the end of this task, one should be able to:
 - shell initialization files
