@@ -1,1 +1,2 @@
 #!/bin/bash
+printf "%s + %s\n" "$WATER" "$STIR" | tr 'stuvwxyzabcdefghijklmnopqr' '0123456789abcdef' | xargs printf "bestchool=%\n"
