@@ -1,16 +1,8 @@
-# SHELL BASICS
+# 0x00. SHELL BASICS
 
-## SHEll vs TERMINAL, SHELL NAVIGATION, LOOK AROUND COMMANDS, DIRECTORIES and MANIPULATIONS OF FILES
+## SHELL vs TERMINAL, SHELL NAVIGATION, LOOK AROUND COMMANDS, DIRECTORIES and MANIPULATIONS OF FILES
 
-This is a project about shell basics. At the end of the projects, learners should be able to:
-
-- understand whatshell is
-- differentiate between shell and terminal
-- understand what shell prompt is
-- use the history command
-- understand the concept of shell navigation and be able to navigate in shell
-- understand the concepts of hard and soft links
-- be able to use commands likes ls, less, file, ln, cp, mv, rm, mkdir, wildcard command, man, type, which, help, etc
+This is a project about shell basics. The following scripts/file were created:
 
 ### 0-current_working_directory
 A script that prints the absolute path name of the current working directory. 
