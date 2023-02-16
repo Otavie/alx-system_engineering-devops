@@ -3,8 +3,8 @@
 
 This repository contains tasks about gits, github, linux shell and terminals, C, etc
 
-## TASK 0X00. SHELL BASICS
-### SHEll vs TERMINAL, SHELL NAVIGATION, LOOK AROUND COMMANDS, DIRECTORIES and MANIPULATIONS OF FILES
+### TASK 0X00. SHELL BASICS
+#### SHEll vs TERMINAL, SHELL NAVIGATION, LOOK AROUND COMMANDS, DIRECTORIES and MANIPULATIONS OF FILES
 This is a project about shell basics. At the end of the projects, learners should be able to:
 
 - understand whatshell is
@@ -16,8 +16,8 @@ This is a project about shell basics. At the end of the projects, learners shoul
 - be able to use commands likes ls, less, file, ln, cp, mv, rm, mkdir, wildcard command, man, type, which, help, etc
 
 
-## TASK 0X01. SHELL PERMISSIONS
-### CHMOD, SUDO, SU, CHOWN, CHGRP, ETC
+### TASK 0X01. SHELL PERMISSIONS
+#### CHMOD, SUDO, SU, CHOWN, CHGRP, ETC
 This directory contains scripts for shell permissions. At the the end of this project, students should be able to:
 
 - understand what the commands chmod, sudo, su, chown and chgrp do
@@ -32,8 +32,8 @@ This directory contains scripts for shell permissions. At the the end of this pr
 - change user ID or become superuser
 
 
-## TASK 0x02. SHELL, I/O REDIRECTIONS AND FILTERS
-### SPECIAL CHARACTERS, SHEBANG 
+### TASK 0x02. SHELL, I/O REDIRECTIONS AND FILTERS
+#### SPECIAL CHARACTERS, SHEBANG 
 This project is about I/O redirections and filters. It discusses the use of special characters. At the end of this project, students should be able to:
 
 - understand what special characters are and how to use them
@@ -46,7 +46,7 @@ This project is about I/O redirections and filters. It discusses the use of spec
 - remove sections from each line of files
 - concatenate files and print on the standard output
 
-## TASK 0X03. UNDERSTANDING ALIASES, VARIABLES AND EXPANSIONS
+### TASK 0X03. UNDERSTANDING ALIASES, VARIABLES AND EXPANSIONS
 This directory contains task for Shell, init files, variables and expansions. At the end of this task, one should be able to:
 
 - shell initialization files
