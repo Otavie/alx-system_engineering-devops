@@ -1,19 +1,8 @@
-# SHELL PERMISSIONS
+# 0x01. SHELL PERMISSIONS
 
 ## CHMOD, SUDO, SU, CHOWN, CHGRP, ETC
 
-This directory contains scripts for shell permissions. At the the end of this project, students should be able to:
-
-- understand what the commands chmod, sudo, su, chown and chgrp do
-- understand linux file permissions
-- create a users and groups
-- represent each of the tree sets of permissions (owner, group and others) as a single digit.
-- print real and effective user and group IDs
-- print the groups a user is in
-- change permissions, owner and group of a file
-- understand why can't normla user chown a file
-- run a command with the root privileges
-- change user ID or become superuser
+This project is about shell permission and it contains the following script/files:
 
 ### 0-iam_betty
 A script that switches the current user to the user betty.
