@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # This script configures an Ubuntu server to map localhost to 127.0.0.1 and facebook.com to 8.8.8.8 in the /etc/hosts file
 
-echo "127.0.0.2 localhost" > ~/hosts.alx
-echo "8.8.8.8 facebook.com" >> ~/hosts.alx
+echo "127.0.0.2 localhost" > /etc/hosts
+echo "8.8.8.8 facebook.com" >> /etc/hosts
