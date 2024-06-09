@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script displays listening ports and shows the PID and name of the program to which each socket belongs
+
+ss -ltnp
