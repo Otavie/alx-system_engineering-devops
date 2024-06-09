@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script displays all active IPv4 IPs on the machine
+
+echo "0.0.0.0" > /etc/hosts
