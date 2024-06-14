@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script that stops 4-to_infinity_and_beyond process w/o using kill or killall
+
+pkill "$(pgrep -f ^7-highlander)"
