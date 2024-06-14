@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# Script for file creation, signal handling and process termination
+
+# Function to handle SIGTERM signal
+sigterm_() {
+	rm /var/run/myscript.pid
+	echo "I hate the kill command"
+	exit 0
+}
+
+# Function to handle SIGQUIT signal
+sigquit_() {
+        rm /var/run/myscript.pid
+        exit 0
+}
+
+# Function to handle SIGINT signal
+sigterm_() {
+        echo "Y U no love me?!"
+}
+
+echo $$ > /var/run/myscript.pid
+
+while true; do
+	echo "To infinity and beyond"
+done
+
+trap sigterm_ SIGTERM
+trap sigint_ SIGINT
+trap sigquit_ SIGQUIT
