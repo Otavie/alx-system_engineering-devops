@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Bash script tha kills all processes
 
-kill $(ps -x | pgrep -f beyond)"
+kill grep 4-to_infinity_and_beyond
