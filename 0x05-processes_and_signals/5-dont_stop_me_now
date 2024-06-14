@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Bash script tha kills all processes
 
-kill grep 4-to_infinity_and_beyond
+kill $(grep -f "4-to_infinity_and_beyond")
