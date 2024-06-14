@@ -15,7 +15,7 @@ sigquit_() {
 }
 
 # Function to handle SIGINT signal
-sigterm_() {
+sigint_() {
         echo "Y U no love me?!"
 }
 
